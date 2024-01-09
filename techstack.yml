@@ -1,0 +1,417 @@
+repo_name: 2lambda123/helix-shared
+report_id: 57d218920a832116f06775f2e188b0a0
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:55:34+00:00'
+requested_by: renovate[bot]
+provider: github
+branch: main
+detected_tools_count: 31
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/helix-shared
+  detection_source: Repo Metadata
+- name: YAML
+  description: A straightforward machine parsable data serialization format designed
+    for human readability and interaction
+  website_url: http://www.yaml.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1744/yaml.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/packages/helix-shared-config/package.json
+  detection_source: packages/helix-shared-config/package.json
+  last_updated_by: Tobias Bocanegra
+  last_updated_on: 2021-04-29 03:00:50.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Tobias Bocanegra
+  last_updated_on: 2022-06-05 16:04:01.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Stefan Guggisberg
+  last_updated_on: 2018-10-25 07:28:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/helix-shared
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/.github/workflows/codeql.yml
+  detection_source: ".github/workflows/codeql.yml"
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-09-29 12:06:06.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 10.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-12-13 13:49:40.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 22.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-dom/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-05-28 10:25:33.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/packages/helix-shared-secrets/package.json
+  detection_source: packages/helix-shared-secrets/package.json
+  last_updated_by: Tobias Bocanegra
+  last_updated_on: 2023-01-25 13:39:43.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/helix-shared
+  detection_source: Repo Metadata
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-03 11:43:55.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-20 10:24:00.000000000 Z
+- name: semantic-release
+  description: Fully automated version management and package publishing
+  website_url: https://github.com/semantic-release/semantic-release
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10156/12867925.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-20 10:24:00.000000000 Z
+- name: "@semantic-release/changelog"
+  description: Semantic-release plugin to create or update a changelog file
+  package_url: https://www.npmjs.com/@semantic-release/changelog
+  version: 6.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16473/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-20 10:24:00.000000000 Z
+- name: "@semantic-release/git"
+  description: Semantic-release plugin to commit release assets to the project's git
+    repository
+  package_url: https://www.npmjs.com/@semantic-release/git
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16388/default_3d8bf87f0e09f3da6536330e02ffa89677f8784b.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-20 10:24:00.000000000 Z
+- name: "@semantic-release/npm"
+  description: Semantic-release plugin to publish a npm package
+  package_url: https://www.npmjs.com/@semantic-release/npm
+  version: 11.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16690/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-20 10:24:00.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: Stefan Guggisberg
+  last_updated_on: 2018-10-25 07:28:17.000000000 Z
+- name: aws4
+  description: Signs and prepares requests using AWS Signature Version 4
+  package_url: https://www.npmjs.com/aws4
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18421/default_fec2a16e3d4fd2d8184d454d72a65ab5133ec4ae.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-secrets/package.json
+  last_updated_by: Tobias Bocanegra
+  last_updated_on: 2023-01-25 13:39:43.000000000 Z
+- name: cookie
+  description: HTTP server cookie parsing and serialization
+  package_url: https://www.npmjs.com/cookie
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16660/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-config/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-13 08:31:58.000000000 Z
+- name: dayjs
+  description: 2KB immutable date time library alternative to Moment.js with the same
+    modern API
+  package_url: https://www.npmjs.com/dayjs
+  version: 1.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-indexer/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-09-27 08:06:28.000000000 Z
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-config/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-03-27 05:00:03.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-03 11:43:55.000000000 Z
+- name: ignore
+  description: Ignore is a manager and filter for .gitignore rules
+  package_url: https://www.npmjs.com/ignore
+  version: 5.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17744/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-config/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-20 10:24:00.000000000 Z
+- name: jsdoc-to-markdown
+  description: Generates markdown API documentation from jsdoc annotated source code
+  package_url: https://www.npmjs.com/jsdoc-to-markdown
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16276/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-11-29 14:35:50.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 15.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-20 10:24:00.000000000 Z
+- name: lru-cache
+  description: A cache object that deletes the least-recently-used items
+  package_url: https://www.npmjs.com/lru-cache
+  version: 7.18.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16386/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-config/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-25 13:35:32.000000000 Z
+- name: micromatch
+  description: Glob matching for javascript/node.js
+  package_url: https://www.npmjs.com/micromatch
+  version: 4.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17143/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-indexer/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-03-28 11:53:57.000000000 Z
+- name: nock
+  description: HTTP server mocking and expectations library for Node.js
+  package_url: https://www.npmjs.com/nock
+  version: 13.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16036/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-06 10:25:24.000000000 Z
+- name: object-hash
+  description: Generate hashes from javascript objects in node and the browser
+  package_url: https://www.npmjs.com/object-hash
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16940/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-config/package.json
+  last_updated_by: Renovate Bot
+  last_updated_on: 2022-02-21 15:04:43.000000000 Z
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 22.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-11-20 10:24:00.000000000 Z
+- name: unified
+  description: Interface for processing text using syntax trees
+  package_url: https://www.npmjs.com/unified
+  version: 10.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17259/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
+  detection_source_url: https://github.com/2lambda123/helix-shared/blob/main/package-lock.json
+  detection_source: packages/helix-shared-indexer/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-10-30 21:05:41.000000000 Z
